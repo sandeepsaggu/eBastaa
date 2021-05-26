@@ -65,8 +65,8 @@
   
   .aboutus_outer_card {
     background-color: #5D2B57;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    margin: auto 50px;
     height: 100%;
     border-radius: 30px;
     padding: 5rem 2.5rem;
@@ -78,17 +78,32 @@
     height: 150px;
     transform: skew(-20deg);
     background: #ea7d68;
+    padding: 10px;
+    margin-left: 70px;
   }
   .bracket_right {
     width: 25px;
     height: 150px;
     transform: skew(20deg);
     background: #ea7d68;
+    padding: 10px;
+    margin-left: 70px;
   }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 993px) {
     .bracket_left,
     .bracket_right {
       display: none;
+    }
+    .aboutus_outer_card{
+      height:100%;
+      width: 100%;
+      margin:auto;
+    }
+    .aboutus{
+      padding-left: 20px;
+    }
+    .aboutbutton{
+      text-align: center;
     }
   }
   @media only screen and (max-width: 1450px) {

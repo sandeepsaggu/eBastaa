@@ -25,6 +25,9 @@ File: Layout CSS
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
 #topbar{padding:20px 0; font-size:12px;}
+#topbar .topcon{
+	line-height:22px; font-size: 14px;
+}
 
 #topbar ul li{display:inline-block; margin-right:15px;}
 #topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none;}
@@ -48,7 +51,10 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 #header #logo{margin:22px 0 0 0;}
-
+.limage{
+	width:180px !important;
+	border-radius: 15px !important;
+}
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
@@ -245,7 +251,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:0;}
 #mainav li:last-child{margin-right:0;}
 #mainav li li{width:100%; margin:0;}
-#mainav li a{display:block; padding:30px 8px;}
+#mainav li a{display:block; padding:35px 12px;}
 #mainav li li a{border:solid; border-width:0 0 1px 0;}
 #mainav .drop{padding-left:15px;}
 #mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 20px;}
@@ -520,8 +526,9 @@ table a, #comments a{background-color:inherit;}
 
 	#topbar{text-align:center;}
 	#topbar > div:first-of-type ul{margin:0 0 10px 0;}
-	#topbar #searchform{display:none;}/* This is personal preference - remove if not required */
-
+	#topbar .topcon{font-size: 13px !important; padding-right: 3px; display: block;}
+	#topbar .searchform {display:none;}/* This is personal preference - remove if not required */
+	.hello footer{ display: none;}
 	#header{text-align:center;}
 	#header #logo{margin:0 0 15px 0;}
 

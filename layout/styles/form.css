@@ -391,3 +391,8 @@ img.avatar {
     width: 100%;
   }
 }
+@media screen and (max-width:750px){
+ .backform{
+  size: 20%;
+ }
+}
