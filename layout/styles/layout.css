@@ -50,9 +50,9 @@ File: Layout CSS
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
-#header #logo{margin:22px 0 0 0;}
+#header #logo{margin:15px 0 0 0;}
 .limage{
-	width:180px !important;
+	width:220px !important;
 	border-radius: 15px !important;
 }
 
